@@ -1,6 +1,6 @@
 # Normalize Deco
 
-A utility function for normalizing the way [es2016 decorator functions](https://github.com/wycats/javascript-decorators) receive their arguments.
+A utility function for normalizing the way <a href="https://github.com/wycats/javascript-decorators">es2016 decorator functions</a> receive their arguments.
 
 ## Usage
 Wrap your decorator function in `normalizeDeco`.
