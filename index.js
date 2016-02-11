@@ -1,14 +1,13 @@
 
 module.exports = function normalizeDeco(decoFn) {
   return function normalizedDecoWrapper() {
+    var length = arguments.length;
     var args;
-    var length;
     var i;
-    if(typeof arguments[0] === "function") {
+    if(length === 1 && typeof arguments[0] === "function") {
       return decoFn(arguments[0])
     } else {
       args = [];
-      length = arguments.length;
       for(i = 0; i < length; i++) {
         args.push(arguments[i]);
       }
