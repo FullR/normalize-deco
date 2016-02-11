@@ -14,7 +14,7 @@ npm install normalize-deco
 ```javascript
 import normalizeDeco from "normalize-deco";
 
-const myDeco = normalizeDeco((Target, options) => {
+const myDeco = normalizeDeco((Target, a, b, c) => {
   Target.someCoolFunctionality = { ... };
   return Target;
 });
@@ -23,7 +23,7 @@ const myDeco = normalizeDeco((Target, options) => {
 @myDeco // no options
 class A {}
 
-@myDeco({a: 1, b: 2}) // with options
+@myDeco("a", "b", "c") // with options
 class B {}
 ```
 
