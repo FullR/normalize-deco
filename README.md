@@ -7,6 +7,10 @@ Wrap your decorator function in `normalizeDeco`.
 
 The wrapper will determine whether or not your decorator is being called with or without options and handle them accordingly.
 
+```bash
+npm install normalize-deco
+```
+
 ```javascript
 import normalizeDeco from "normalize-deco";
 
