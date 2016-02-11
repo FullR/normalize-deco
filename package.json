@@ -1,12 +1,23 @@
 {
   "name": "normalize-deco",
-  "version": "0.0.6",
+  "version": "0.0.7",
+  "description": "A utility function for normalizing the way es2016 class decorator functions receive their arguments",
+  "main": "index.js",
+  "keywords": ["es2016", "es7", "decorator", "utility"],
   "scripts": {
     "test": "mocha"
+  },
+  "author": {
+    "name": "James Meyers",
+    "email": "james.meyers919@gmail.com",
+    "url": "https://github.com/FullR"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/FullR/normalize-deco"
+  },
+  "bugs": {
+    "url": "https://github.com/FullR/normalize-deco/issueshttps://github.com/FullR/normalize-deco/issues"
   },
   "devDependencies": {
     "mocha": "^2.4.5"
