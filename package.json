@@ -1,0 +1,14 @@
+{
+  "name": "normalize-deco",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FullR/normalize-deco"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
